@@ -1,0 +1,200 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "https://ndownloader.figstatic.com/files/30736607",
+    "dcterms:bibliographicCitation" : "Pozsgai, G., Ben Fekih, I., Kohnen, M.V. et al. Associations between carabid beetles and fungi in the light of 200 years of published literature. Sci Data 8, 294 (2021). https://doi.org/10.1038/s41597-021-01072-w",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "", "NA" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonId",
+        "titles" : "Carabidae_GBIFID",
+        "datatype": {
+          "base" : "string",
+          "valueUrl" : "https://www.gbif.org/species/{sourceTaxonId}"
+        }
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Carabidae_full_name",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "Fungus_GBIFID",
+        "datatype": {
+          "base" : "string",
+          "valueUrl" : "https://www.gbif.org/species/{targetTaxonId}"
+        }
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Fungus_full_name",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "Inter_type",
+        "datatype" : "string"
+      }, {
+        "name" : "localityId",
+        "titles" : "Country_code",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Country_name",
+        "datatype" : "string"
+      }, {
+        "name" : "Country_abbreviation",
+        "titles" : "Country_abbreviation",
+        "datatype" : "string"
+      }, {
+        "name" : "Region_code",
+        "titles" : "Region_code",
+        "datatype" : "string"
+      }, {
+        "name" : "Region_name",
+        "titles" : "Region_name",
+        "datatype" : "string"
+      }, {
+        "name" : "Subregion_code",
+        "titles" : "Subregion_code",
+        "datatype" : "string"
+      }, {
+        "name" : "Subregion_name",
+        "titles" : "Subregion_name",
+        "datatype" : "string"
+      }, {
+        "name" : "ReferenceID",
+        "titles" : "ReferenceID",
+        "datatype" : "string"
+      }, {
+        "name" : "Short_citation",
+        "titles" : "Short_citation",
+        "datatype" : "string"
+      }, {
+        "name" : "Full_citation",
+        "titles" : "Full_citation",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "BibTex",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonId",
+        "titles" : "Carabidae_NCBIID",
+        "datatype": {
+          "base" : "string",
+          "valueUrl" : "NCBI:txid{sourceTaxonId}"
+        }
+      }, {
+        "name" : "sourceTaxonRankName",
+        "titles" : "Carabidae_rank",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonKingdomName",
+        "titles" : "Carabidae_kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonPhylumName",
+        "titles" : "Carabidae_phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonClassName",
+        "titles" : "Carabidae_class",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonOrderName",
+        "titles" : "Carabidae_order",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "Carabidae_family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSubfamilyName",
+        "titles" : "Carabidae_subfamily",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "Carabidae_genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpeciesName",
+        "titles" : "Carabidae_species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "Fungus_NCBIID",
+        "datatype": {
+          "base" : "string",
+          "valueUrl" : "NCBI:txid{targetTaxonId}"
+        }
+      }, {
+        "name" : "targetTaxonRankName",
+        "titles" : "Fungus_rank",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdomName",
+        "titles" : "Fungus_kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "Fungus_phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "Fungus_class",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Fungus_order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Fungus_family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubfamilyName",
+        "titles" : "Fungus_subfamily",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "Fungus_genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpeciesName",
+        "titles" : "Fungus_species",
+        "datatype" : "string"
+      }, {
+        "name" : "Carabidae_note",
+        "titles" : "Carabidae_note",
+        "datatype" : "string"
+      }, {
+        "name" : "Fungus_note",
+        "titles" : "Fungus_note",
+        "datatype" : "string"
+      }, {
+        "name" : "Connection_note",
+        "titles" : "Connection_note",
+        "datatype" : "string"
+      }, {
+        "name" : "Country_note",
+        "titles" : "Country_note",
+        "datatype" : "string"
+      }, {
+        "name" : "Ref_note",
+        "titles" : "Ref_note",
+        "datatype" : "string"
+      }, {
+        "name" : "InteractionID",
+        "titles" : "InteractionID",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

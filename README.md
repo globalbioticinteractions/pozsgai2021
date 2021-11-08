@@ -1,0 +1,5 @@
+[![Review](https://github.com/globalbioticinteractions/pozsgai2021/actions/workflows/review.yml/badge.svg)](https://github.com/globalbioticinteractions/pozsgai2021/actions) [![Build Status](https://app.travis-ci.com/globalbioticinteractions/pozsgai2021.svg)](https://app.travis-ci.com/globalbioticinteractions/pozsgai2021) [![GloBI](https://api.globalbioticinteractions.org/interaction.svg?accordingTo=globi:globalbioticinteractions/pozsgai2021&refutes=true&refutes=false)](https://globalbioticinteractions.org/?accordingTo=globi:globalbioticinteractions/pozsgai2021)
+
+Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
+
+Pozsgai, G., Ben Fekih, I., Kohnen, M.V. et al. Associations between carabid beetles and fungi in the light of 200 years of published literature. Sci Data 8, 294 (2021). https://doi.org/10.1038/s41597-021-01072-w
